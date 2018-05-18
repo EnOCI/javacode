@@ -82,10 +82,6 @@ public class App {
      * Performs a call to the database.
      */
     private static void runDatabaseQuery() {
-     //SecretTable  
-     /*
-     http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here
-     */
      
         String host = "129.157.179.180:3000";
         String database = "deathstar";
