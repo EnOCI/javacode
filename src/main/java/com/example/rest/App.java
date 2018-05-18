@@ -57,7 +57,7 @@ public class App {
  
     	// sample URL
      //String url = "http://ip.jsontest.com/";     
-     String url = "http://129.157.179.180:3000/fighters/33/"+y+"/White/EnOCI";
+     String url = "http://129.157.179.180:3000/fighters/45/"+y+"/White/EnOCI";
      
         CloseableHttpResponse response = null;
  
