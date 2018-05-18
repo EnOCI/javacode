@@ -42,7 +42,9 @@ public class App {
  
         System.out.println("Server started");
  
+     for (int i=0; i<9; i++){
         runGetRequest();
+     }
         //runDatabaseQuery();
     }
  
