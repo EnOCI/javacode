@@ -43,7 +43,7 @@ public class App {
         System.out.println("Server started");
  
      for (int i=0; i<9; i++){
-        runGetRequest();
+        runGetRequest(i);
      }
         //runDatabaseQuery();
     }
@@ -51,11 +51,11 @@ public class App {
     /**
      * Performs a simple GET request and prints the result to the log.
      */
-    private static void runGetRequest() {
+    private static void runGetRequest(int y) {
  
     	// sample URL
      //String url = "http://ip.jsontest.com/";     
-     String url = "http://129.157.179.180:3000/shield/33/45/White/EnOCI";
+     String url = "http://129.157.179.180:3000/shield/33/y/White/EnOCI";
      
         CloseableHttpResponse response = null;
  
