@@ -52,7 +52,9 @@ public class App {
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://ip.jsontest.com/";
+     //String url = "http://ip.jsontest.com/";     
+     String url = http://129.157.179.180:3000/shield/33/45/White/EnOCI;
+     
         CloseableHttpResponse response = null;
  
         try {
