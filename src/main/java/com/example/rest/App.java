@@ -1,5 +1,5 @@
 /* Copyright © 2016 Oracle and/or its affiliates. All rights reserved. */
-// Small Change! EN
+// Small Change!
 
 package com.example.rest;
  
