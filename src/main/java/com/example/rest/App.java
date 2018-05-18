@@ -45,7 +45,7 @@ public class App {
      for (int i=0; i<9; i++){
         runGetRequest(i);
      }
-        //runDatabaseQuery();
+        runDatabaseQuery();
     }
  
     /**
@@ -82,10 +82,15 @@ public class App {
      * Performs a call to the database.
      */
     private static void runDatabaseQuery() {
-        String host = "myHost";
-        String database = "myDatabase";
-        String user = "myUsername";
-        String password = "myPassword";
+     //SecretTable  
+     /*
+     http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here
+     */
+     
+        String host = "129.157.179.180:3000";
+        String database = "deathstar";
+        String user = "Captain";
+        String password = "welcome1";
         DBConnection db = new DBConnection("jdbc:mysql://" 
                 + host + "/" 
                 + database + "?user=" 
