@@ -42,11 +42,11 @@ public class App {
  
         System.out.println("Server started");
  
-     //for (int i=0; i<9; i++){
-       // runGetRequest(i);
-   //  }
+    for (int i=0; i<9; i++){
+       runGetRequest(i);
+   }
      
-        runDatabaseQuery();
+        //runDatabaseQuery();
         //runGetRequest();
     }
  
@@ -57,7 +57,7 @@ public class App {
  
     	// sample URL
      //String url = "http://ip.jsontest.com/";     
-     String url = "http://129.157.179.180:3000/reactorCore/33/y/White/EnOCI";
+     String url = "http://129.157.179.180:3000/reactorCore/33/"+y+"/White/EnOCI";
      
         CloseableHttpResponse response = null;
  
